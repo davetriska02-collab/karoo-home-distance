@@ -62,6 +62,7 @@ import java.util.Locale
  * Swap to a proper rotated vector drawable if Glance rotation support lands in
  * a later SDK version.
  */
+@OptIn(androidx.glance.ExperimentalGlanceApi::class)
 class HomeBearingDataType(
     private val karooSystem: KarooSystemService,
 ) : DataTypeImpl("karoo-home-distance", "home-bearing") {
