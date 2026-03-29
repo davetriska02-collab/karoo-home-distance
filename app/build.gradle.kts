@@ -56,4 +56,7 @@ dependencies {
 
     // Glance for remote views (used by the bearing data field graphical widget)
     implementation(libs.androidx.glance.appwidget)
+
+    // Unit tests
+    testImplementation(libs.junit)
 }
