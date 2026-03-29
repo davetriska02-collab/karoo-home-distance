@@ -24,8 +24,8 @@ import io.hammerhead.karooext.extension.DataTypeImpl
 import io.hammerhead.karooext.models.DataType
 import io.hammerhead.karooext.models.StreamState
 import io.hammerhead.karooext.models.ViewConfig
-import io.hammerhead.karooext.models.ViewEmitter
-import io.hammerhead.karooext.models.Emitter
+import io.hammerhead.karooext.internal.ViewEmitter
+import io.hammerhead.karooext.internal.Emitter
 import io.hammerhead.karooext.models.UpdateGraphicConfig
 import io.hammerhead.karooext.models.DataPoint
 import kotlinx.coroutines.CoroutineScope

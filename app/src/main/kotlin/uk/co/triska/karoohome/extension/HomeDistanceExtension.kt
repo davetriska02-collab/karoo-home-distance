@@ -1,6 +1,6 @@
 package uk.co.triska.karoohome.extension
 
-import io.hammerhead.karooext.KarooExtension
+import io.hammerhead.karooext.extension.KarooExtension
 import io.hammerhead.karooext.KarooSystemService
 
 /**
@@ -28,6 +28,7 @@ class HomeDistanceExtension : KarooExtension("karoo-home-distance", "1.0") {
     override fun onCreate() {
         super.onCreate()
         karooSystem = KarooSystemService(applicationContext)
+        karooSystem.connect()
     }
 
     override fun onDestroy() {

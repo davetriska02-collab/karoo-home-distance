@@ -8,8 +8,8 @@ import io.hammerhead.karooext.models.DataType
 import io.hammerhead.karooext.models.StreamState
 import io.hammerhead.karooext.models.UpdateGraphicConfig
 import io.hammerhead.karooext.models.ViewConfig
-import io.hammerhead.karooext.models.ViewEmitter
-import io.hammerhead.karooext.models.Emitter
+import io.hammerhead.karooext.internal.ViewEmitter
+import io.hammerhead.karooext.internal.Emitter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.mapNotNull
