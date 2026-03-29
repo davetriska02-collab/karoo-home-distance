@@ -33,9 +33,6 @@ android {
 
     kotlinOptions {
         jvmTarget = "1.8"
-        freeCompilerArgs += listOf(
-            "-opt-in=androidx.glance.ExperimentalGlanceApi",
-        )
     }
 
     buildFeatures {
@@ -57,6 +54,4 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.bundles.compose.ui)
 
-    // Glance for remote views (used by the bearing data field graphical widget)
-    implementation(libs.androidx.glance.appwidget)
 }

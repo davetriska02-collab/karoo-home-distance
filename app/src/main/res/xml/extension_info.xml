@@ -23,13 +23,13 @@
         typeId="home-distance" />
 
     <!--
-        Graphical data field: rotating arrow pointing towards home with distance text.
-        graphical="true" means we render the UI ourselves via GlanceRemoteViews.
+        Numeric data field: bearing to home in degrees (0-360).
+        graphical="false" means Karoo renders the number itself.
     -->
     <DataType
         description="@string/home_bearing_description"
         displayName="@string/home_bearing"
-        graphical="true"
+        graphical="false"
         icon="@drawable/ic_arrow"
         typeId="home-bearing" />
 
