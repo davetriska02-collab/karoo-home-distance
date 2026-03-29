@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    extension_info.xml - registers this extension and its data types with the Karoo system.
+    The id here must match the first argument passed to KarooExtension() in HomeDistanceExtension.kt.
+    Each DataType typeId must match the second argument passed to DataTypeImpl() in the data type class.
+-->
+<ExtensionInfo
+    displayName="@string/extension_name"
+    icon="@drawable/ic_home"
+    id="karoo-home-distance"
+    scansDevices="false">
+
+    <!--
+        Numeric data field: distance to home in km/mi.
+        graphical="false" means Karoo renders the number itself using its standard field widget.
+        We tell Karoo to format it as a distance value via UpdateGraphicConfig in startView().
+    -->
+    <DataType
+        description="@string/home_distance_description"
+        displayName="@string/home_distance"
+        graphical="false"
+        icon="@drawable/ic_home"
+        typeId="home-distance" />
+
+    <!--
+        Graphical data field: rotating arrow pointing towards home with distance text.
+        graphical="true" means we render the UI ourselves via GlanceRemoteViews.
+    -->
+    <DataType
+        description="@string/home_bearing_description"
+        displayName="@string/home_bearing"
+        graphical="true"
+        icon="@drawable/ic_arrow"
+        typeId="home-bearing" />
+
+</ExtensionInfo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home Distance</string>
+    <string name="extension_name">Home Distance</string>
+
+    <!-- Home Distance data type -->
+    <string name="home_distance">Home Distance</string>
+    <string name="home_distance_description">Shows how far you are from home (Witley, Surrey)</string>
+
+    <!-- Home Bearing data type -->
+    <string name="home_bearing">Home Direction</string>
+    <string name="home_bearing_description">Arrow pointing towards home with distance</string>
+
+    <!-- Main settings screen -->
+    <string name="settings_title">Home Distance</string>
+    <string name="settings_home_location">Home location: Witley, Surrey (GU8 5SX)</string>
+    <string name="settings_instructions">Add the \'Home Distance\' or \'Home Direction\' data fields to your ride profile in the Karoo app.</string>
+    <string name="settings_distance_field_label">Home Distance</string>
+    <string name="settings_distance_field_desc">Numeric field — distance to home in your chosen units</string>
+    <string name="settings_bearing_field_label">Home Direction</string>
+    <string name="settings_bearing_field_desc">Graphical field — arrow pointing towards home</string>
+</resources>
